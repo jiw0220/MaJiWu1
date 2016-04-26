@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/step_c" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="闷蒸的目的是为了闷出咖啡的香味，为第二次冲泡做好准备。闷蒸的水温应该为93度，从豆粉中央注水，绕圆2-3圈，使全部全部豆粉都能均匀吸水，水滴下滴3-5滴为最好。豆粉吸水以后会膨胀，由之前的平整变为往上凸起的圆弧型。这时可以闻到咖啡粉散发出的淡淡香醇味道。这个步骤是决定一杯咖啡冲泡是否成功的决定性因素之一，尤其重要。"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_try"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:tag="2"
+            android:text="试一试"
+            android:textColor="#3f51b5"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</LinearLayout>

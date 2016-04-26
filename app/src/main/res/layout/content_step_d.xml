@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/step_d" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="结束闷蒸以后，将冲壶放在湿润的口布上降温，25-30秒以后，水温降到89-91度，就可以进行冲泡了。\n一般来说，中度烘焙的咖啡豆(我们称之为惰性豆类)冲泡水温为91度，这样的水温更能将咖啡豆的香味萃取出来；而深度烘焙的咖啡豆(活泼豆类)，冲泡温度为89度，这个水温已经足够萃取出咖啡豆的香味和苦味，如果水温过低显得有些淡，水温过高就有些煮过了，异常苦。冲泡的水流可以比闷蒸的水流稍粗一些，但也必须稳定。咖啡量的多少可以由圈数的多少和水流的快慢来控制，不管是冲泡一杯还是三杯咖啡，水流只需从中心开始往外绕圈注水，然后再从外圈绕回中心，到圆心收水，冲泡就结束了。冲泡过程中千万注意水流不要冲到了滤纸，否则咖啡会很涩。冲泡的咖啡量一般应该比下壶的标线多0.5，否则冲出来的咖啡量会不够。"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_try"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:tag="3"
+            android:text="试一试"
+            android:textColor="#3f51b5"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</LinearLayout>

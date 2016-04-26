@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/step_e" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="装杯前应该先将壶里的咖啡轻轻摇晃，令其浓淡充分混合，使得每杯的咖啡味道都均匀。然后将温杯的水倒掉，将咖啡倒入杯中摆好盘就可以出餐了。\n注意事项：整个咖啡冲泡过程从温杯到装杯喝到口里的过程(4杯内)，时间不能超过2分钟，否则咖啡的味道就会变酸，变涩，失去本应有的香醇。"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_try"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:tag="4"
+            android:text="试一试"
+            android:textColor="#3f51b5"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</LinearLayout>

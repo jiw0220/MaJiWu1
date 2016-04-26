@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/step_b" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="将少量的热水倒入底壶中，要换几圈，然后倒出。对于一杯完美的咖啡而言，温杯至少占了20%的功劳。无论咖啡煮得多么好，只要倒入一个冰冷的杯子里，咖啡的温度立即降低，香气也抵消过半。而事先把咖啡杯温杯，咖啡倒入后不但热度得以保存，而杯子的温度更适于酝酿香气，使咖啡的香味完全释放出来。
+温杯的方式有多种，可放入烘碗机温热，也可以放在热水槽中浸泡，或将热水倒入杯中烫热。再等水温降低至95度，即可开始闷蒸。"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_try"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:tag="1"
+            android:text="试一试"
+            android:textColor="#3f51b5"
+            android:textSize="22sp" />
+    </RelativeLayout>
+</LinearLayout>
